@@ -1,0 +1,27 @@
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./_variables.scss";
+@import "./_layout.scss";
+@import "./_header.scss";
+@import "./_footer.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+
+html {
+  overflow-y: scroll;
+}
+
+body,
+html {
+  position: relative;
+  height: 100%;
+  background: $color-black;
+  color: $color-satan;
+  font-family: 'Exo 2', Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+a {
+  cursor: pointer;
+}
