@@ -6,22 +6,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import {
   AppComponent,
-  HeaderComponent,
-  ParentComponent,
-  ChildComponent,
+  HeaderComponent
 } from './components';
 
 const appRoutes: Routes = [
-  { path: '', component: ParentComponent },
-  { path: 'parent', component: ParentComponent },
+  { path: '', component: AppComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ParentComponent,
-    ChildComponent
   ],
   imports: [
     AppRoutingModule,
